@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Innovet Tech for bespoke corporate solutions.">
+    <title>Contact Us | Innovet Tech</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-stone-950 text-stone-200 antialiased">
 
+    <header class="sticky top-0 z-40 w-full backdrop-blur-md border-b border-amber-500/20 bg-stone-950/80">
+        <div class="container mx-auto flex h-20 items-center justify-between px-6">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-gradient-to-tr from-amber-600 to-amber-300 rounded-lg flex items-center justify-center">
+                    <span class="text-stone-950 font-black text-xl italic">I</span>
+                </div>
+                <span class="text-2xl font-bold tracking-tight text-white uppercase">Innovet<span class="text-amber-500 font-light">Tech</span></span>
+            </div>
+            <nav class="hidden md:block">
+                <ul class="flex space-x-8 font-medium text-stone-400">
+                    <li><a href="index.html" class="hover:text-amber-500 transition">Home</a></li>
+                    <li><a href="about.html" class="hover:text-amber-500 transition">About</a></li>
+                    <li><a href="services.html" class="hover:text-amber-500 transition">Services</a></li>
+                    <li><a href="team.html" class="hover:text-amber-400 transition">Team</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="py-24 bg-stone-950">
+        <div class="container mx-auto px-6">
+            <div class="bg-stone-900 border border-amber-500/20 rounded-[3rem] overflow-hidden flex flex-col md:flex-row shadow-2xl">
+                <div class="md:w-1/3 bg-gradient-to-b from-amber-600 to-amber-400 p-12 text-stone-950">
+                    <h2 class="text-4xl font-black mb-8 leading-tight">Secure a Consultation.</h2>
+                    <div class="space-y-8">
+                        <div>
+                            <span class="block text-xs font-black uppercase tracking-widest opacity-60">Global HQ</span>
+                            <p class="text-lg font-bold">The Gilded Tower, Suite 100<br>Zurich, Switzerland</p>
+                        </div>
+                        <div>
+                            <span class="block text-xs font-black uppercase tracking-widest opacity-60">Digital</span>
+                            <p class="text-lg font-bold">concierge@innovet.tech</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="md:w-2/3 p-12 lg:p-16">
+                    <form action="#" class="space-y-8">
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div class="space-y-2">
+                                <label for="name" class="text-xs font-bold text-amber-500 uppercase tracking-widest">Full Name</label>
+                                <input type="text" 
+                                id="name" 
+                                required class="w-full bg-stone-800 border-none p-4 rounded-xl text-white focus:ring-1 focus:ring-amber-500 outline-none transition" 
+                                placeholder="John Doe">
+                            </div>
+                            <div class="space-y-2">
+                                <label for="email" 
+                                class="text-xs font-bold text-amber-500 uppercase tracking-widest">Enterprise Email</label>
+                                <input type="email" 
+                                id="email" 
+                                required 
+                                class="w-full bg-stone-800 border-none p-4 rounded-xl text-white focus:ring-1 focus:ring-amber-500 outline-none transition" 
+                                placeholder="email@company.com">
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <label for="msg" class="text-xs font-bold text-amber-500 uppercase tracking-widest">Project Vision</label>
+                            <textarea id="msg" 
+                            rows="4" required 
+                            class="w-full bg-stone-800 border-none p-4 rounded-xl text-white focus:ring-1 focus:ring-amber-500 outline-none transition" 
+                            placeholder="Tell us about your objectives..."></textarea>
+                        </div>
+                        <button type="submit" 
+                        class="w-full py-5 bg-amber-500 hover:bg-amber-400 text-stone-950 font-black rounded-xl uppercase tracking-[0.3em] transition shadow-lg shadow-amber-500/10 active:scale-95">
+                            Initiate Connection
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-stone-950 py-12 text-center border-t border-stone-900 text-stone-500 text-sm">
+        <p>&copy; 2026 Innovet Tech. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
