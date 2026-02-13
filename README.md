@@ -19,7 +19,7 @@ Ensure you have [Git](https://git-scm.com/) installed. No local server (like Nod
 
 ```bash
 # Clone the repository
-git clone https://github.com/Kwanusu/corporate.git
+git clone https://github.com/Kwanusu/my-corporate.git
 
 # Navigate into the project directory
 cd corporate
