@@ -1,1 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Innovet Tech's core service offerings from Cloud to AI.">
+    <title>Our Services | Innovet Tech</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-stone-950 text-stone-200 antialiased">
+    <header class="sticky top-0 z-40 w-full backdrop-blur-md border-b border-amber-500/20 bg-stone-950/80 px-6">
+        <div class="container mx-auto flex h-20 items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-gradient-to-tr from-amber-600 to-amber-300 rounded-lg flex items-center justify-center shadow-[0_0_15px_rgba(245,158,11,0.3)]">
+                    <span class="text-stone-950 font-black text-xl italic">I</span>
+                </div>
+                <span class="text-2xl font-bold tracking-tight text-white uppercase">Innovet<span class="text-amber-500 font-light">Tech</span></span>
+            </div>
+            <nav class="hidden md:block">
+                <ul class="flex space-x-8 font-medium">
+                    <li><a href="index.html" class="hover:text-amber-400 transition">Home</a></li>
+                    <li><a href="about.html" class="hover:text-amber-400 transition">About</a></li>
+                    <li><a href="services.html" class="text-amber-500 border-b-2 border-amber-500 pb-1">Services</a></li>
+                    <li><a href="team.html" class="hover:text-amber-400 transition">Team</a></li>
+                    <li><a href="contact.html" class="hover:text-amber-400 transition">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+    <main class="py-20">
+        <section class="container mx-auto px-6">
+            <div class="text-center mb-20">
+                <span class="text-amber-500 font-black tracking-widest uppercase text-xs">Expertise</span>
+                <h1 class="text-5xl font-black mt-4 text-white">Core Competencies</h1>
+                <div class="w-24 h-1 bg-amber-500 mx-auto mt-6"></div>
+            </div>
+            
+            <div class="space-y-32">
+                <div class="flex flex-col md:flex-row items-center gap-16">
+                    <div class="md:w-1/2">
+                        <h2 class="text-3xl font-bold mb-6 text-white leading-tight">Enterprise <span class="text-amber-500">Cloud Migration</span></h2>
+                        <p class="text-lg text-stone-400 mb-8 leading-relaxed">Transition your legacy infrastructure to the cloud with zero downtime. We specialize in AWS, Azure, and Google Cloud hybrid environments.</p>
+                        <ul class="space-y-4 text-stone-300">
+                            <li class="flex items-center gap-3">
+                                <span class="text-amber-500">✦</span> Infrastructure-as-Code (IaC)
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span class="text-amber-500">✦</span> Multi-Region Redundancy
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span class="text-amber-500">✦</span> Cost Optimization Audits
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="md:w-1/2 relative group">
+                        <div class="absolute -inset-1 bg-gradient-to-r from-amber-600 to-amber-400 rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-1000"></div>
+
+                        <div class="relative bg-stone-900 h-80 rounded-2xl border border-amber-500/20 flex flex-col items-center justify-center text-amber-500/50 italic shadow-2xl overflow-hidden">
+                            
+                            <img src="images/cloud-architecture.jpg" 
+                                    alt="Enterprise Cloud Architecture"
+                                    class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+
+                            <div class="absolute inset-0 bg-gradient-to-t from-stone-950/80 via-transparent to-transparent"></div>
+
+                            <span class="relative z-10 mt-auto mb-6 font-bold tracking-[0.3em] uppercase text-[10px] text-amber-500 bg-stone-950/60 backdrop-blur-md px-3 py-1 rounded-full border border-amber-500/30">
+                                Cloud Architecture
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row-reverse items-center gap-16">
+                    <div class="md:w-1/2">
+                        <h2 class="text-3xl font-bold mb-6 text-white leading-tight">Cybersecurity <span class="text-amber-500">Resilience</span></h2>
+                        <p class="text-lg text-stone-400 mb-8 leading-relaxed">In an era of rising threats, we provide a proactive security posture using Zero Trust principles and military-grade encryption.</p>
+                        <ul class="space-y-4 text-stone-300">
+                            <li class="flex items-center gap-3">
+                                <span class="text-amber-500">✦</span> Penetration Testing
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span class="text-amber-500">✦</span> 24/7 Managed Detection (MDR)
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span class="text-amber-500">✦</span> Compliance Readiness (GDPR/HIPAA)
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="md:w-1/2 relative group">
+                    <div class="absolute -inset-1 bg-gradient-to-r from-stone-600 to-amber-600 rounded-2xl blur opacity-10 group-hover:opacity-40 transition duration-1000"></div>
+                    
+                    <div class="relative bg-stone-900 h-80 rounded-2xl border border-stone-800 group-hover:border-amber-500/30 flex flex-col items-center justify-center shadow-2xl overflow-hidden transition-colors duration-500">
+                        
+                        <img src="images/security.avif" 
+                            alt="Cybersecurity Operations"
+                            class="absolute inset-0 w-full h-full object-cover opacity-40 grayscale group-hover:grayscale-0 group-hover:opacity-80 group-hover:scale-105 transition-all duration-700">
+
+                        <div class="absolute inset-0 bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.25)_50%),linear-gradient(90deg,rgba(255,0,0,0.02),rgba(0,255,0,0.01),rgba(0,0,255,0.02))] bg-[length:100%_4px,3px_100%] pointer-events-none"></div>
+                        
+                        <div class="absolute inset-0 bg-gradient-to-t from-stone-950/90 via-transparent to-transparent"></div>
+
+                        <div class="relative z-10 mt-auto mb-6 flex flex-col items-center gap-2">
+                            <span class="font-mono text-[8px] text-amber-500/50 animate-pulse uppercase tracking-[0.5em]">System Status: Active</span>
+                            <span class="font-bold tracking-[0.3em] uppercase text-[10px] text-stone-200 bg-stone-950/80 backdrop-blur-md px-4 py-1.5 rounded-full border border-stone-700 group-hover:border-amber-500/50 transition-colors">
+                                Security Ops
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-stone-950 py-16 text-center border-t border-stone-900">
+        <p class="text-stone-600 text-sm tracking-[0.3em] uppercase">&copy; 2026 Innovet Tech • Gold Standard Solutions</p>
+    </footer>
+</body>
+</html>
